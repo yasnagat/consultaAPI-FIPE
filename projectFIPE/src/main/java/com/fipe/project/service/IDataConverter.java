@@ -11,4 +11,5 @@ public interface IDataConverter {
     <T> T dataObtainer(String json, Class<T> classe);
 
     <T> List<T> newList (String json, Class<T> classe);
+
 }

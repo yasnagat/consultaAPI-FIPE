@@ -22,5 +22,6 @@ public record VehicleData(@JsonAlias("TipoVeiculo")Integer type,
                 + ", Ano de produção:  " + year
                 + ", Tipo de combustível:  " + fuel
                 + ", Modelo:  " + referenceMonth;
+
     }
 }

@@ -9,4 +9,5 @@ import java.util.List;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
 public record VehicleModel(List<VehicleBrand> modelos) {
+
 }

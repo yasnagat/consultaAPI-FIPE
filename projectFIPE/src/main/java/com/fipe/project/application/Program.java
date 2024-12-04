@@ -77,13 +77,6 @@ public class Program {
         vehicles.forEach(System.out::println);
 
     }
-
 }
-
-
-
-
-
-
 
 

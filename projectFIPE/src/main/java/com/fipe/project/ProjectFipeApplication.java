@@ -11,7 +11,6 @@ public class ProjectFipeApplication implements CommandLineRunner {
 	public static void main(String[] args) {
 		SpringApplication.run(ProjectFipeApplication.class, args);
 	}
-
 	@Override
 	public void run(String... args) {
 				Program program = new Program();

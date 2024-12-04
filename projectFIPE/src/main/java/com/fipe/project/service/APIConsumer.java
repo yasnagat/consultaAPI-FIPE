@@ -29,5 +29,6 @@ public class APIConsumer {
             throw new RuntimeException(e);
         }
         return response.body();
+
     }
 }
